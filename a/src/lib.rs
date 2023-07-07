@@ -10,6 +10,6 @@ mod tests {
     fn it_works() {
         let result = add(2, 2);
         assert_eq!(result, 4);
-        // fix one.
+        // fix two.
     }
 }
