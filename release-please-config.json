@@ -6,7 +6,7 @@
   "plugins": [
     {
       "type": "cargo-workspace",
-      "merge": false
+      "merge": true
     }
   ],
   "release-type": "rust",
