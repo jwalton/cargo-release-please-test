@@ -1,9 +1,14 @@
 {
-    "packages": {
-      "a": {},
-      "b": {}
-    },
-    "plugins": ["cargo-workspace"],
-    "release-type": "rust",
-    "include-component-in-tag": false
-  }
+  "packages": {
+    "a": {},
+    "b": {}
+  },
+  "plugins": [
+    {
+      "type": "cargo-workspace",
+      "merge": false
+    }
+  ],
+  "release-type": "rust",
+  "include-component-in-tag": false
+}
